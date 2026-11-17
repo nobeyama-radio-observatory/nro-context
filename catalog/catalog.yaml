@@ -1,0 +1,58 @@
+# 目録：文脈基盤に関わるリポジトリの一覧
+# 項目の定義は schema.md を参照。
+
+- name: nro-context
+  url: https://github.com/nobeyama-radio-observatory/nro-context
+  kind: hub
+  categories: []
+  description: 文脈基盤のハブ。全体の索引、共通の決まり、判断記録、上流の問い、観測所共通のスキルの正本を置く。
+  owner_role: 所長
+  update: 随時
+  disclosure: 公開
+  status: 準備中
+
+- name: nro-assets
+  url: ""
+  kind: data
+  categories: [資産]
+  description: 装置、システム、ソフトウェアの台帳と、その構成・依存関係・保守状況。
+  owner_role: 未定
+  update: 未定
+  disclosure: 公開（一部は所在のみ）
+  status: 準備中
+  note: まだリポジトリを作っていない。
+
+- name: YATSUGATAKE
+  url: https://github.com/nobeyama-radio-observatory/YATSUGATAKE
+  kind: dev
+  categories: [資産]
+  description: 45m 鏡の分光計 SAM45 の後継として RFSoC 4x2 の上に作る電波分光計の製品版。配布する .bit と、その設計・仕様・性能評価を持つ。
+  owner_role: 未定
+  update: 開発に応じて
+  disclosure: 公開
+  status: 稼働
+  related: [study-rfsoc, YATSUGATAKE-NRO45-sam45compat]
+
+- name: YATSUGATAKE-NRO45-sam45compat
+  url: https://github.com/nobeyama-radio-observatory/YATSUGATAKE-NRO45-sam45compat
+  kind: dev
+  categories: [資産]
+  description: SAM45 の故障した Array を YATSUGATAKE で肩代わりするためのソフトウェア。
+  owner_role: 未定
+  update: 開発に応じて
+  disclosure: 公開
+  status: 暫定
+  related: [YATSUGATAKE]
+  note: SAM45 が廃止され、45m の分光計が YATSUGATAKE に一本化された時点で archive する。
+
+- name: study-rfsoc
+  url: https://github.com/ars096/study-rfsoc
+  kind: dev
+  categories: [資産]
+  description: YATSUGATAKE の開発用リポジトリ。試作（projNNN）を置き、仕上がったものを YATSUGATAKE に移す。
+  owner_role: 未定
+  update: 開発に応じて
+  disclosure: 公開
+  status: 稼働
+  related: [YATSUGATAKE]
+  note: 観測所の組織ではなく個人のアカウントにある。
