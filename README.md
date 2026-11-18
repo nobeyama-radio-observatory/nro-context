@@ -20,6 +20,7 @@
 | [questions/](questions/) | 上流の問い。文脈基盤の完成度を測る物差し |
 | [mission/](mission/) | 使命：目的、中期計画、法令、関係者 |
 | [assets/](assets/README.md) | 資産の台帳の項目の定義と、運用リポジトリへ移すまでの仮置きの台帳 |
+| [metrics/](metrics/README.md) | 数値の項目の定義と、系列の索引（値は nro-metrics） |
 | [history/](history/README.md) | 経緯：装置と運用形態の変更の年表 |
 | [external/](external/README.md) | 外部：他の施設の事例、将来の施設と技術の動向 |
 | [decisions/](decisions/) | 判断記録（ADR） |

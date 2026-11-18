@@ -109,3 +109,14 @@
   disclosure: 公開
   status: 稼働
   note: 2026-11-18 に作成。担当は聞き取り（nro-45m-if の interviews/2026-11-18.md）による。水素メーザーは水沢 VLBI 観測所の管理で、保守を装置システムグループが補助する。
+
+- name: nro-metrics
+  url: ""
+  kind: data
+  categories: [数値]
+  description: 数値（提供時間、停止の割合、観測提案、論文、見学者、障害、人員、予算、料金など）の系列。項目の定義はハブの metrics/README.md。
+  owner_role: 未定
+  update: 随時
+  disclosure: 公開
+  status: 準備中
+  note: まだリポジトリを作っていない（判断記録 0007）。担当が決まるまではハブの担当が預かる。
