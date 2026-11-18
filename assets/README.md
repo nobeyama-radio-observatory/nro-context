@@ -10,7 +10,7 @@
 
 | ファイル | 範囲 | 状態 |
 |---|---|---|
-| [nro45m.yaml](nro45m.yaml) | 45m 鏡の観測システム（アンテナ、受信機、分光計、IF 系、観測制御ソフトウェア、標準時計） | 仮置きの初版（12件。分光計の3件は運用リポジトリに移した）。公開資料から AI が埋めた。保守の手間、担い手の数、更新の見込みは未記入。運用リポジトリへ移す |
+| [nro45m.yaml](nro45m.yaml) | 45m 鏡の観測システム（アンテナ、受信機、分光計、IF 系、観測制御ソフトウェア、標準時計） | 仮置きの初版（5件。分光計の3件と受信機の7件は運用リポジトリに移した）。公開資料から AI が埋めた。保守の手間、担い手の数、更新の見込みは未記入。運用リポジトリへ移す |
 
 ## 資産の索引
 
@@ -21,6 +21,13 @@
 | be-sam45 | SAM45（分光計） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | be-yatsugatake | YATSUGATAKE（分光計） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | sw-sam45compat | SAM45 互換のソフトウェア | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
+| rx-h22 | H22 | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-h40 | H40 | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-z45 | Z45 | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-forest | FOREST（4ビーム受信機） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-hinotori-tz | HINOTORI-TZ | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-7bee | 7BEE（7ビーム3帯域受信機） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-t70 | T70 | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 
 まだ入っていないもの：建物と共通の設備（電源、冷却、ネットワークなど）、計算機とデータの保管、観測所のほかの装置、事務のシステム、廃止した資産（AOS、旧 IF 系、S40、S100 など。経緯は [history/](../history/README.md)）。
 
@@ -54,6 +61,6 @@
 ## 書き方の決まり
 
 - **入れないもの：** 接続先、アドレス、アカウント、ネットワーク構成、制御の手順（[CONTRIBUTING.md](../CONTRIBUTING.md)）。保守の状況（故障の傾向、予備品の有無、外部の支援）は入れてよい。
-- **聞き取りの記録：** 公開資料にない値は、保守の担い手に聞き取って集めます。運用リポジトリの `interviews/YYYY-MM-DD.md` に、日付、回答者の役割（名前は書かない）、問いと答えを、回答者が確認した要約として残します。答えのうち見立てに当たるものは、台帳で `（仮説）` を添えます。
+- **聞き取りの記録：** 公開資料にない値は、保守の担い手に聞き取って集めます。書き方は [interviews.md](interviews.md) です。
 - **`未記入` を残してよい。** 空欄にせず `未記入` と書くと、埋めるべき箇所が数えられる。
 - **廃止した資産も残す。** `status: 廃止` と `ended` を書き、消さない。統合や更新の経緯の材料になる。経緯の要約は [history/](../history/README.md) にある。
