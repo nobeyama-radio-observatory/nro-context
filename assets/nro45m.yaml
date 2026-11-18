@@ -52,22 +52,9 @@
   sources:
     - データシート（連続波の観測は、科学観測としては提供せず、ポインティングの観測だけに使う）
 
-# 制御と時刻
+# 時刻
 
-- id: sw-cosmos
-  name: COSMOS（観測制御ソフトウェア）
-  kind: ソフトウェア
-  part_of: nro45m
-  status: 運用中
-  introduced: 第3世代（COSMOS-3）が2003年に報告されている
-  maintenance: {by: 所内, condition: 未記入, effort: 未記入}
-  renewal: 未記入
-  owner_role: 未定
-  maintainers: 未記入
-  sources:
-    - 名称と役割：障害情報 Trouble ID 2026-2、Trouble ID 2026-5
-    - 導入：年次報告2002（論文の一覧にある COSMOS-3 の報告）
-  note: 構成の詳細は入れない
+# 観測制御（sw-cosmos）は、運用リポジトリ nro-45m-control に移した（2026-11-18、判断記録 0006）。索引は README.md。
 
 - id: time-standard
   name: 標準時計（水素メーザーを基準とする）
