@@ -10,7 +10,7 @@
 
 | ファイル | 範囲 | 状態 |
 |---|---|---|
-| [nro45m.yaml](nro45m.yaml) | 45m 鏡の観測システム（アンテナ、受信機、分光計、IF 系、観測制御ソフトウェア、標準時計） | 仮置きの初版（5件。分光計の3件と受信機の7件は運用リポジトリに移した）。公開資料から AI が埋めた。保守の手間、担い手の数、更新の見込みは未記入。運用リポジトリへ移す |
+| [nro45m.yaml](nro45m.yaml) | 45m 鏡の観測システム（アンテナ、受信機、分光計、IF 系、観測制御ソフトウェア、標準時計） | 仮置きの初版（4件。アンテナ、分光計の3件、受信機の7件は運用リポジトリに移した）。公開資料から AI が埋めた。保守の手間、担い手の数、更新の見込みは未記入。運用リポジトリへ移す |
 
 ## 資産の索引
 
@@ -18,6 +18,8 @@
 
 | id | 名称 | 運用リポジトリ |
 |---|---|---|
+| nro45m | 45m 電波望遠鏡 | [nro-45m-antenna](https://github.com/nobeyama-radio-observatory/nro-45m-antenna/blob/main/assets.yaml) |
+| beam-transmission | ビーム伝送系 | [nro-45m-antenna](https://github.com/nobeyama-radio-observatory/nro-45m-antenna/blob/main/assets.yaml) |
 | be-sam45 | SAM45（分光計） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | be-yatsugatake | YATSUGATAKE（分光計） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | sw-sam45compat | SAM45 互換のソフトウェア | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
