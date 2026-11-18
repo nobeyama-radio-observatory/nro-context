@@ -27,7 +27,8 @@
 | rx-forest | FOREST（4ビーム受信機） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 | rx-hinotori-tz | HINOTORI-TZ | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 | rx-7bee | 7BEE（7ビーム3帯域受信機） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
-| rx-t70 | T70 | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-t70 | T70（廃止） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-eq | eQ（所外の装置、試験中） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 
 まだ入っていないもの：建物と共通の設備（電源、冷却、ネットワークなど）、計算機とデータの保管、観測所のほかの装置、事務のシステム、廃止した資産（AOS、旧 IF 系、S40、S100 など。経緯は [history/](../history/README.md)）。
 
