@@ -10,24 +10,7 @@
 #   年次報告YYYY：https://www.nao.ac.jp/contents/about/reports/annual-report-ja/annualYYYY-j.pdf
 #   経緯：../history/README.md
 
-- id: nro45m
-  name: 45m 電波望遠鏡
-  kind: アンテナ
-  status: 運用中
-  offered: 提供
-  introduced: 1982年（観測と共同利用の開始。試験観測は1981年）
-  maintenance:
-    by: 所内、メーカー
-    condition: 2026年11月に、駆動の制御架に異常表示が出たが駆動には影響がなく、メーカーと協力して調査中
-    effort: 未記入
-  renewal: 未記入
-  owner_role: 未定
-  maintainers: 未記入
-  docs: データシート
-  sources:
-    - 導入：経緯（沿革、45m 鏡のページ）
-    - 保守：障害情報 Trouble ID 2026-5
-  note: 観測できる周波数は 20〜116 GHz（データシート）
+# アンテナ（nro45m）は、運用リポジトリ nro-45m-antenna に移した（2026-11-18、判断記録 0006）。索引は README.md。
 
 # 受信機（rx-h22、rx-h40、rx-z45、rx-forest、rx-hinotori-tz、rx-7bee、rx-t70）は、
 # 運用リポジトリ nro-45m-receivers に移した（2026-11-18、判断記録 0006）。索引は README.md。
