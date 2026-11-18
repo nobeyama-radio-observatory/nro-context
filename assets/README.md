@@ -40,8 +40,16 @@
 | rx-s40 | S40（廃止） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 | rx-s100-80 | S100/80（廃止） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 | rx-bears | BEARS（廃止） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| db-nrodb-nobeyama | NRODB（野辺山） | [nro-data](https://github.com/nobeyama-radio-observatory/nro-data/blob/main/assets.yaml) |
+| db-nrodb-mitaka | NRODB（三鷹） | [nro-data](https://github.com/nobeyama-radio-observatory/nro-data/blob/main/assets.yaml) |
+| db-radio-archive | 電波アーカイブ | [nro-data](https://github.com/nobeyama-radio-observatory/nro-data/blob/main/assets.yaml) |
+| tool-obs-script | 観測指示書の作成ソフト | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
+| tool-newstar | NEWSTAR | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
+| tool-nostar | NOSTAR | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
+| tool-cont | cont | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
+| tool-casa-export | CASA の形式への書き出しとパイプライン処理 | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
 
-まだ入っていないもの：建物と共通の設備（電源、冷却、ネットワークなど）、計算機とデータの保管、観測所のほかの装置、事務のシステム、廃止した資産のうち受信機以外（AOS、旧 IF 系など。経緯は [history/](../history/README.md)）。
+まだ入っていないもの：建物と共通の設備（電源、冷却、ネットワークなど）、計算機（所内の共通のサービス用の基盤）、観測所のほかの装置、事務のシステム、廃止した資産のうち受信機以外（AOS、旧 IF 系など。経緯は [history/](../history/README.md)）。
 
 ## 項目の定義
 
