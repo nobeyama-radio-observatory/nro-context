@@ -52,7 +52,7 @@
 - **KID（力学インダクタンス検出器）カメラ：** IRAM 30m の NIKA2 は約 2,900 素子、150・260 GHz（https://arxiv.org/abs/1910.02038 ）。LMT の TolTEC は KID の偏光カメラ（https://arxiv.org/abs/1803.03280 ）。
 - **超伝導のオンチップ分光器：** ASTE の DESHIMA 2.0（200〜400 GHz）（https://arxiv.org/abs/2501.14478 ）。
 - **マルチビーム受信機：** Green Bank Telescope の Argus（16画素、74〜116 GHz）は大学の連合が開発し、後継の Argus144 はマッピングの速さ 10倍を目指す（https://greenbankobservatory.org/science/instruments-2020-2030/argus144/ ）。
-- **RFSoC を使うデジタル分光計：** 受信系の大部分を1枚の基板に載せられる可能性が示されている（https://arxiv.org/abs/2011.05691 ）。観測所の開発リポジトリ（[目録](../catalog/catalog.yaml)の study-rfsoc）も同じ流れにある。
+- **RFSoC を使うデジタル分光計：** 受信系の大部分を1枚の基板に載せられる可能性が示されている（https://arxiv.org/abs/2011.05691 ）。観測所の開発リポジトリ（study-rfsoc。[nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer) から参照）も同じ流れにある。
 - **遠隔と無人の運用：** JCMT は 2019年11月から完全な遠隔運用に移り、夜間の山頂を無人にした（https://arxiv.org/abs/2012.10568 ）。
 - **天文以外の使い道：** 宇宙ごみの観測（Effelsberg）、商用の宇宙機との通信（Parkes、Goonhilly）、測地 VLBI（Yebes）。いずれも上の表にある。
 
