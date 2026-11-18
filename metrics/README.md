@@ -40,4 +40,21 @@
 
 ## 系列の索引
 
-`nro-metrics` を作った後に、系列の `id`、名称、区切り、期間をここに並べます。
+値の正本は [nro-metrics](https://github.com/nobeyama-radio-observatory/nro-metrics) です。ここには系列の一覧だけを置きます。
+
+| id | 名称 | 区切り | 期間 |
+|---|---|---|---|
+| [budget-operations](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/budget-operations.yaml) | 観測所の予算（規模） | 年度 | 2023年度 |
+| [charge-per-hour](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/charge-per-hour.yaml) | 有料の望遠鏡時間の単価 | 時点 | 2026-11-18 時点（国内の機関の研究代表者）〜2026-11-18 時点（国外の機関の研究代表者） |
+| [downtime-ratio](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/downtime-ratio.yaml) | 45m 鏡の観測の停止の割合（天候と技術的な故障） | 年度 | 2019年度〜2020年度 |
+| [offered-hours](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/offered-hours.yaml) | 45m 鏡の観測の提供時間 | 年度 | 2018年度〜2022年度 |
+| [papers-refereed-45m](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/papers-refereed-45m.yaml) | 査読論文の数（45m 鏡） | 暦年 | 2013〜2021 |
+| [papers-refereed-all](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/papers-refereed-all.yaml) | 査読論文の数（観測所全体） | 暦年 | 2013〜2021 |
+| [papers-refereed-nma](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/papers-refereed-nma.yaml) | 査読論文の数（ミリ波干渉計） | 暦年 | 2013〜2021 |
+| [proposals-accepted](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/proposals-accepted.yaml) | 45m 鏡の共同利用の観測提案の採択件数 | 年度 | 1982年度〜2021年度 |
+| [proposals-submitted](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/proposals-submitted.yaml) | 45m 鏡の共同利用の観測提案の件数 | 年度 | 1982年度〜2021年度 |
+| [staff-technical-onsite](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/staff-technical-onsite.yaml) | 現地の技術系職員の数 | 年度 | 2018年度〜2019年度 |
+| [staff-total](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/staff-total.yaml) | 観測所の職員の数（規模） | 年度 | 2023年度 |
+| [trouble-count](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/trouble-count.yaml) | 45m 鏡の障害の件数（観測期） | 観測期 | 2026-2027年の観測期（2026-11-12 まで） |
+| [visitors-monthly](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/visitors-monthly.yaml) | 見学者数（月） | 月 | 2012-04〜2021-03 |
+| [visitors-yearly](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/visitors-yearly.yaml) | 見学者数（年度） | 年度 | 1982年度〜2020年度 |
