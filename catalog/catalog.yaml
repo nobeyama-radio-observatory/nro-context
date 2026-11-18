@@ -11,16 +11,16 @@
   disclosure: 公開
   status: 準備中
 
-- name: nro-assets
+- name: nro-45m-spectrometer
   url: ""
-  kind: data
+  kind: ops
   categories: [資産]
-  description: 装置、システム、ソフトウェアの台帳と、その構成・依存関係・保守状況。
+  description: 45m 鏡の分光計（SAM45、YATSUGATAKE、SAM45 互換のソフトウェア）の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置き、製品と開発のリポジトリを参照する。
   owner_role: 未定
-  update: 未定
-  disclosure: 公開（一部は所在のみ）
+  update: 随時
+  disclosure: 公開
   status: 準備中
-  note: まだリポジトリを作っていない。作るまでは、項目の定義と台帳をハブの assets/ に置く（判断記録 0005）。
+  note: まだリポジトリを作っていない。担当が決まるまではハブの担当が預かる。ほかの装置群の運用リポジトリの候補は判断記録 0006 にある。作るまでは、台帳をハブの assets/ に仮置きする。
 
 - name: YATSUGATAKE
   url: https://github.com/nobeyama-radio-observatory/YATSUGATAKE
@@ -32,6 +32,7 @@
   disclosure: 公開
   status: 稼働
   related: [study-rfsoc, YATSUGATAKE-NRO45-sam45compat]
+  note: 製品リポジトリ。nro-45m-spectrometer を作った時点でそちらから参照し、目録から外す（判断記録 0006）。
 
 - name: YATSUGATAKE-NRO45-sam45compat
   url: https://github.com/nobeyama-radio-observatory/YATSUGATAKE-NRO45-sam45compat
@@ -43,7 +44,7 @@
   disclosure: 公開
   status: 暫定
   related: [YATSUGATAKE]
-  note: SAM45 が廃止され、45m の分光計が YATSUGATAKE に一本化された時点で archive する。
+  note: SAM45 が廃止され、45m の分光計が YATSUGATAKE に一本化された時点で archive する。nro-45m-spectrometer を作った時点でそちらから参照し、目録から外す（判断記録 0006）。
 
 - name: study-rfsoc
   url: https://github.com/ars096/study-rfsoc
@@ -55,4 +56,4 @@
   disclosure: 公開
   status: 稼働
   related: [YATSUGATAKE]
-  note: 観測所の組織ではなく個人のアカウントにある。
+  note: 開発リポジトリ。観測所の組織ではなく個人のアカウントにある。nro-45m-spectrometer を作った時点でそちらから参照し、目録から外す（判断記録 0006）。
