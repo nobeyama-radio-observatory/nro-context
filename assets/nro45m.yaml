@@ -121,7 +121,7 @@
   sources:
     - 状態と提供：データシート
     - 導入：年次報告2009、技術シンポ2019
-  note: 改修は大学のグループによる。保守を誰が担うかは未確認
+  note: 改修は大学のグループによる。保守を誰が担うかは未確認。単一鏡の観測だけに提供し、VLBI モードは調整中で使えない（プロポーザルの募集 https://www.nro.nao.ac.jp/projects/45m/proposals/calls/ ）
 
 - id: rx-7bee
   name: 7BEE（7ビーム3帯域受信機）
@@ -139,6 +139,23 @@
   sources:
     - 状態と提供：データシート
     - 導入：年次報告2022
+
+- id: rx-t70
+  name: T70
+  kind: 受信機
+  part_of: nro45m
+  depends_on: [nro45m, if-system]
+  status: 未記入
+  offered: 未記入
+  introduced: 2013年度に共同利用に公開
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  sources:
+    - 導入：年次報告2013
+    - 提供：有料望遠鏡時間の案内 https://www.nro.nao.ac.jp/projects/45m/charge-for-the-nobeyama-45-m-telescope-time/ の受信機の一覧にある
+  note: データシートの受信機の一覧にはない。技術シンポ2019 の構成図では「（旧）T70」とある。今の状態を確かめる必要がある
 
 # 信号処理と分光計
 
@@ -186,6 +203,7 @@
   part_of: nro45m
   depends_on: [if-system]
   status: 試験中
+  offered: リスクシェアで提供
   introduced: 2026年11月12日に試験的な科学運用を開始
   maintenance: {by: 所内, condition: 未記入, effort: 未記入}
   renewal: SAM45 の後継
@@ -194,6 +212,7 @@
   repos: [YATSUGATAKE, study-rfsoc]
   sources:
     - 導入：障害情報 Trouble ID 2026-1
+    - 提供：プロポーザルの募集 https://www.nro.nao.ac.jp/projects/45m/proposals/calls/ （SAM45 の使えないアレイの代わりに、試験観測の段階として提供）
     - 後継の位置づけ：目録（YATSUGATAKE）
 
 - id: sw-sam45compat
@@ -249,7 +268,6 @@
   kind: 時刻
   part_of: nro45m
   status: 運用中
-  offered: 提供
   maintenance:
     by: 所内、水沢 VLBI 観測所
     condition: 2023年度に水素メーザー時計が故障して VLBI 観測の提供を止め、電源を修理して復旧。2026年11月に原因不明の時刻のずれがあり、様子を見ている
@@ -260,4 +278,5 @@
   sources:
     - 故障と修理：日本天文学会2025年秋季年会 https://www.asj.or.jp/nenkai/archive/2025b/pdf/V127b.pdf
     - 時刻のずれ：障害情報 Trouble ID 2026-4
-  note: 単一鏡の観測には影響が小さく、VLBI 観測に影響する。offered は VLBI 観測の提供を指す
+    - VLBI 観測の提供の条件：有料望遠鏡時間の案内 https://www.nro.nao.ac.jp/projects/45m/charge-for-the-nobeyama-45-m-telescope-time/ 、プロポーザルの募集 https://www.nro.nao.ac.jp/projects/45m/proposals/calls/
+  note: 単一鏡の観測には影響が小さく、VLBI 観測に影響する。VLBI のバックエンドは、水沢 VLBI 観測所が支援できる場合だけ提供される。HINOTORI-TZ の VLBI モードは調整中で使えない。2023年度の故障の後に VLBI 観測の提供が再開されたかは未確認
