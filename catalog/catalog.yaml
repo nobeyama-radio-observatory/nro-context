@@ -16,11 +16,11 @@
   kind: ops
   categories: [資産]
   description: 45m 鏡の分光計（SAM45、YATSUGATAKE、SAM45 互換のソフトウェア）の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置き、製品と開発のリポジトリを参照する。
-  owner_role: 未定
+  owner_role: 計算機グループ
   update: 随時
   disclosure: 公開
   status: 稼働
-  note: 2026-11-18 に作成。担当が決まるまではハブの担当が預かる。製品と開発のリポジトリ（YATSUGATAKE、YATSUGATAKE-NRO45-sam45compat、study-rfsoc）は、ここの台帳から参照する。ほかの装置群の運用リポジトリの候補は判断記録 0006 にあり、作るまではハブの assets/ に台帳を仮置きする。
+  note: 2026-11-18 に作成。担当は聞き取り（nro-45m-spectrometer の interviews/2026-11-18.md 問0、問9）による。製品と開発のリポジトリ（YATSUGATAKE、YATSUGATAKE-NRO45-sam45compat、study-rfsoc）は、ここの台帳から参照する。ほかの装置群の運用リポジトリの候補は判断記録 0006 にあり、作るまではハブの assets/ に台帳を仮置きする。
 
 - name: nro-45m-receivers
   url: https://github.com/nobeyama-radio-observatory/nro-45m-receivers
