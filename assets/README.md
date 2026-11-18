@@ -25,6 +25,7 @@
 | sw-cosmos | COSMOS（観測制御ソフトウェア） | [nro-45m-control](https://github.com/nobeyama-radio-observatory/nro-45m-control/blob/main/assets.yaml) |
 | sw-obs-ui | 観測の操作のユーザーインターフェース | [nro-45m-control](https://github.com/nobeyama-radio-observatory/nro-45m-control/blob/main/assets.yaml) |
 | sw-remote-obs | リモート観測のシステム | [nro-45m-control](https://github.com/nobeyama-radio-observatory/nro-45m-control/blob/main/assets.yaml) |
+| ctl-computers | 制御用の計算機と仮想化の基盤 | [nro-45m-control](https://github.com/nobeyama-radio-observatory/nro-45m-control/blob/main/assets.yaml) |
 | be-sam45 | SAM45（分光計） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | be-yatsugatake | YATSUGATAKE（分光計） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | sw-sam45compat | SAM45 互換のソフトウェア | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |

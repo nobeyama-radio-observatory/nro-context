@@ -48,9 +48,9 @@
   url: https://github.com/nobeyama-radio-observatory/nro-45m-control
   kind: ops
   categories: [資産]
-  description: 45m 鏡の観測制御（COSMOS、観測の操作のユーザーインターフェース、リモート観測のシステム）の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
-  owner_role: 未定
+  description: 45m 鏡の観測制御（COSMOS、観測の操作のユーザーインターフェース、リモート観測のシステム、制御用の計算機と仮想化の基盤）の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
+  owner_role: 計算機グループ
   update: 随時
   disclosure: 公開
   status: 稼働
-  note: 2026-11-18 に作成。担当が決まるまではハブの担当が預かる。
+  note: 2026-11-18 に作成。担当は聞き取り（nro-45m-control の interviews/2026-11-18.md 問1）による。所内の共通のサービス用の仮想化の基盤は含まない。
