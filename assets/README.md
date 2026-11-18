@@ -29,8 +29,11 @@
 | rx-7bee | 7BEE（7ビーム3帯域受信機） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 | rx-t70 | T70（廃止） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 | rx-eq | eQ（所外の装置、試験中） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-s40 | S40（廃止） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-s100-80 | S100/80（廃止） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
+| rx-bears | BEARS（廃止） | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 
-まだ入っていないもの：建物と共通の設備（電源、冷却、ネットワークなど）、計算機とデータの保管、観測所のほかの装置、事務のシステム、廃止した資産（AOS、旧 IF 系、S40、S100 など。経緯は [history/](../history/README.md)）。
+まだ入っていないもの：建物と共通の設備（電源、冷却、ネットワークなど）、計算機とデータの保管、観測所のほかの装置、事務のシステム、廃止した資産のうち受信機以外（AOS、旧 IF 系など。経緯は [history/](../history/README.md)）。
 
 ## 項目の定義
 
