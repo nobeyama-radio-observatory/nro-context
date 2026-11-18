@@ -26,7 +26,7 @@
   url: https://github.com/nobeyama-radio-observatory/nro-45m-receivers
   kind: ops
   categories: [資産]
-  description: 45m 鏡の受信機（H22、H40、Z45、FOREST、HINOTORI-TZ、7BEE、eQ、廃止した T70）の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
+  description: 45m 鏡の受信機（H22、H40、Z45、FOREST、HINOTORI-TZ、7BEE、eQ。廃止した T70、S40、S100/80、BEARS）の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
   owner_role: 受信機チーム（装置システムグループ）
   update: 随時
   disclosure: 公開
