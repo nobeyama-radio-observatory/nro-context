@@ -82,30 +82,30 @@
   kind: ops
   categories: [資産]
   description: 45m 鏡の IF 系（共通 IF 系を含む）の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
-  owner_role: 未定
+  owner_role: 受信機チーム（装置システムグループ）
   update: 随時
   disclosure: 公開
   status: 稼働
-  note: 2026-11-18 に作成。担当が決まるまではハブの担当が預かる。
+  note: 2026-11-18 に作成。担当は聞き取り（nro-45m-if の interviews/2026-11-18.md）による。
 
 - name: nro-45m-continuum
   url: https://github.com/nobeyama-radio-observatory/nro-45m-continuum
   kind: ops
   categories: [資産]
   description: 45m 鏡の連続波の装置の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
-  owner_role: 未定
+  owner_role: 計算機グループ
   update: 随時
   disclosure: 公開
   status: 稼働
-  note: 2026-11-18 に作成。担当が決まるまではハブの担当が預かる。
+  note: 2026-11-18 に作成。担当は聞き取り（nro-45m-if の interviews/2026-11-18.md）による。2026年7月に旧システムが故障し、計算機グループが新しいシステムに更新した。
 
 - name: nro-time-standard
   url: https://github.com/nobeyama-radio-observatory/nro-time-standard
   kind: ops
   categories: [資産]
   description: 標準時計（水素メーザーを基準とする）の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
-  owner_role: 未定
+  owner_role: 装置システムグループ
   update: 随時
   disclosure: 公開
   status: 稼働
-  note: 2026-11-18 に作成。担当が決まるまではハブの担当が預かる。
+  note: 2026-11-18 に作成。担当は聞き取り（nro-45m-if の interviews/2026-11-18.md）による。水素メーザーは水沢 VLBI 観測所の管理で、保守を装置システムグループが補助する。

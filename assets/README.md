@@ -49,8 +49,10 @@
 | tool-cont | cont | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
 | tool-casa-export | CASA の形式への書き出しとパイプライン処理 | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
 | if-system | IF 系（共通 IF 系を含む） | [nro-45m-if](https://github.com/nobeyama-radio-observatory/nro-45m-if/blob/main/assets.yaml) |
-| be-continuum | 連続波のバックエンド | [nro-45m-continuum](https://github.com/nobeyama-radio-observatory/nro-45m-continuum/blob/main/assets.yaml) |
-| time-standard | 標準時計 | [nro-time-standard](https://github.com/nobeyama-radio-observatory/nro-time-standard/blob/main/assets.yaml) |
+| be-continuum | 連続波のバックエンド（2026年7月に廃止） | [nro-45m-continuum](https://github.com/nobeyama-radio-observatory/nro-45m-continuum/blob/main/assets.yaml) |
+| be-continuum-2026 | 連続波のバックエンド（2026年7月からの新しいシステム） | [nro-45m-continuum](https://github.com/nobeyama-radio-observatory/nro-45m-continuum/blob/main/assets.yaml) |
+| time-standard | 標準時計：水素メーザー | [nro-time-standard](https://github.com/nobeyama-radio-observatory/nro-time-standard/blob/main/assets.yaml) |
+| ts-rubidium | 標準時計：ルビジウム発振器 | [nro-time-standard](https://github.com/nobeyama-radio-observatory/nro-time-standard/blob/main/assets.yaml) |
 
 まだ入っていないもの：建物と共通の設備（電源、冷却、ネットワークなど）、計算機（所内の共通のサービス用の基盤）、観測所のほかの装置、事務のシステム、廃止した資産のうち受信機以外（AOS、旧 IF 系など。経緯は [history/](../history/README.md)）。
 
