@@ -37,9 +37,9 @@
   url: https://github.com/nobeyama-radio-observatory/nro-45m-antenna
   kind: ops
   categories: [資産]
-  description: 45m 鏡のアンテナ（駆動を含む）とビーム伝送系の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
-  owner_role: 未定
+  description: 45m 鏡のアンテナ（駆動、アンテナ制御ユニット、マスターコリメーターを含む）とビーム伝送系の運用リポジトリ。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
+  owner_role: アンテナチーム（装置システムグループ）
   update: 随時
   disclosure: 公開
   status: 稼働
-  note: 2026-11-18 に作成。担当が決まるまではハブの担当が預かる。
+  note: 2026-11-18 に作成。担当は聞き取り（nro-45m-antenna の interviews/2026-11-18.md 問1）による。
