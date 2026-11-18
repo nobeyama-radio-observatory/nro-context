@@ -20,6 +20,8 @@
 |---|---|---|
 | nro45m | 45m 電波望遠鏡 | [nro-45m-antenna](https://github.com/nobeyama-radio-observatory/nro-45m-antenna/blob/main/assets.yaml) |
 | beam-transmission | ビーム伝送系 | [nro-45m-antenna](https://github.com/nobeyama-radio-observatory/nro-45m-antenna/blob/main/assets.yaml) |
+| nro45m-acu | アンテナ制御ユニット（ACU） | [nro-45m-antenna](https://github.com/nobeyama-radio-observatory/nro-45m-antenna/blob/main/assets.yaml) |
+| nro45m-master-collimator | マスターコリメーター | [nro-45m-antenna](https://github.com/nobeyama-radio-observatory/nro-45m-antenna/blob/main/assets.yaml) |
 | be-sam45 | SAM45（分光計） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | be-yatsugatake | YATSUGATAKE（分光計） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | sw-sam45compat | SAM45 互換のソフトウェア | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
