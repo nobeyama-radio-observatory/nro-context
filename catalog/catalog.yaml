@@ -122,12 +122,12 @@
   note: 2026-11-18 に作成（判断記録 0007）。担当が決まるまではハブの担当が預かる。
 
 - name: nro-work
-  url: ""
+  url: https://github.com/nobeyama-radio-observatory/nro-work
   kind: data
   categories: [業務]
   description: 業務一覧。worklog の月次マージから業務単位に集計した公開用の書き出し。項目の定義はハブの work/README.md。
   owner_role: 月次マージの担当
   update: 月次
   disclosure: 公開
-  status: 準備中
-  note: まだリポジトリを作っていない（判断記録 0008）。月次マージの担当は所長。
+  status: 稼働
+  note: 2026-11-18 に作成（判断記録 0008）。最初の書き出しは、月次マージの後に worklog のあるマシンから PR で出す。月次マージの担当は所長。
