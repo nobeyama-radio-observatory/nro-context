@@ -19,6 +19,7 @@
 | [catalog/](catalog/) | 目録と、その項目の定義 |
 | [questions/](questions/) | 上流の問い。文脈基盤の完成度を測る物差し |
 | [mission/](mission/) | 使命：目的、中期計画、法令、関係者 |
+| [history/](history/README.md) | 経緯：装置と運用形態の変更の年表 |
 | [decisions/](decisions/) | 判断記録（ADR） |
 | [skills/](skills/) | 観測所全体で使う Claude のスキルの正本 |
 
