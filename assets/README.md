@@ -4,13 +4,13 @@
 
 - **正本は装置群ごとの運用リポジトリです**（[0006](../decisions/0006-資産の情報を装置群ごとの運用リポジトリに置く.md)）。各運用リポジトリの直下の `assets.yaml` に、下の項目で書きます。運用リポジトリの一覧は[目録](../catalog/catalog.yaml)にあります。
 - **ハブにしかない装置の情報を置きません。** ハブに残すのは、項目の定義と、資産の索引（`id`、名称、運用リポジトリ）だけです。
-- **下の `nro45m.yaml` は仮置きです。** 運用リポジトリができたものから項目を移し、ここからは消して索引に置き換えます。
+- **仮置きの台帳は空になりました。** 2026-11-18 に、`nro45m.yaml` の項目をすべて運用リポジトリに移しました。ファイルは、判断記録からのリンクを保つために残しています。
 
 確認日：2026-11-18
 
 | ファイル | 範囲 | 状態 |
 |---|---|---|
-| [nro45m.yaml](nro45m.yaml) | 45m 鏡の観測システム（アンテナ、受信機、分光計、IF 系、観測制御ソフトウェア、標準時計） | 仮置きの初版（3件。アンテナ、分光計の3件、受信機の7件、観測制御は運用リポジトリに移した）。公開資料から AI が埋めた。保守の手間、担い手の数、更新の見込みは未記入。運用リポジトリへ移す |
+| [nro45m.yaml](nro45m.yaml) | 45m 鏡の観測システム | 空。初版の15件はすべて運用リポジトリに移した |
 
 ## 資産の索引
 
@@ -48,6 +48,9 @@
 | tool-nostar | NOSTAR | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
 | tool-cont | cont | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
 | tool-casa-export | CASA の形式への書き出しとパイプライン処理 | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
+| if-system | IF 系（共通 IF 系を含む） | [nro-45m-if](https://github.com/nobeyama-radio-observatory/nro-45m-if/blob/main/assets.yaml) |
+| be-continuum | 連続波のバックエンド | [nro-45m-continuum](https://github.com/nobeyama-radio-observatory/nro-45m-continuum/blob/main/assets.yaml) |
+| time-standard | 標準時計 | [nro-time-standard](https://github.com/nobeyama-radio-observatory/nro-time-standard/blob/main/assets.yaml) |
 
 まだ入っていないもの：建物と共通の設備（電源、冷却、ネットワークなど）、計算機（所内の共通のサービス用の基盤）、観測所のほかの装置、事務のシステム、廃止した資産のうち受信機以外（AOS、旧 IF 系など。経緯は [history/](../history/README.md)）。
 
