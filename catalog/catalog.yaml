@@ -20,7 +20,7 @@
   update: 未定
   disclosure: 公開（一部は所在のみ）
   status: 準備中
-  note: まだリポジトリを作っていない。
+  note: まだリポジトリを作っていない。作るまでは、項目の定義と台帳をハブの assets/ に置く（判断記録 0005）。
 
 - name: YATSUGATAKE
   url: https://github.com/nobeyama-radio-observatory/YATSUGATAKE

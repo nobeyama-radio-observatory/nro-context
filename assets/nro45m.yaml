@@ -1,0 +1,263 @@
+# 資産の台帳：45m 鏡の観測システム
+# 項目の定義は README.md を参照。
+# 初版の下書き（2026-11-18）。公開資料から AI が埋めた。未記入は担当と保守の担い手が埋める。
+#
+# 出典の略記
+#   データシート：45m 鏡のデータシート https://www.nro.nao.ac.jp/en/projects/45m/datasheets/ （2026-11-18 に確認）
+#   障害情報：NRO45m 障害情報 https://www.nro.nao.ac.jp/projects/45m/projects-45m-trouble/ （2026年11月12日更新の版）
+#   技術シンポ2019：https://www2.nao.ac.jp/~open-info/engipromo/draftparts_2019/gk/tecsym19_Miyazawa_Chieko.pdf
+#   年次報告YYYY：https://www.nao.ac.jp/contents/about/reports/annual-report-ja/annualYYYY-j.pdf
+#   経緯：../history/README.md
+
+- id: nro45m
+  name: 45m 電波望遠鏡
+  kind: アンテナ
+  status: 運用中
+  offered: 提供
+  introduced: 1982年（観測と共同利用の開始。試験観測は1981年）
+  maintenance:
+    by: 所内、メーカー
+    condition: 2026年11月に、駆動の制御架に異常表示が出たが駆動には影響がなく、メーカーと協力して調査中
+    effort: 未記入
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  docs: データシート
+  sources:
+    - 導入：経緯（沿革、45m 鏡のページ）
+    - 保守：障害情報 Trouble ID 2026-5
+  note: 観測できる周波数は 20〜116 GHz（データシート）
+
+# 受信機
+
+- id: rx-h22
+  name: H22
+  kind: 受信機
+  part_of: nro45m
+  depends_on: [nro45m, if-system]
+  status: 運用中
+  offered: 提供
+  introduced: 未記入
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  docs: データシート
+  sources:
+    - 状態と提供：データシート
+  note: H40 または Z45 と同時に観測できる。H40 との同時観測は2018年に共同利用で開始（技術シンポ2019）
+
+- id: rx-h40
+  name: H40
+  kind: 受信機
+  part_of: nro45m
+  depends_on: [nro45m, if-system]
+  status: 運用中
+  offered: 提供
+  introduced: 未記入
+  maintenance:
+    by: 所内
+    condition: 電波窓に霜がたまり性能が落ちるため、定期的に昇温と再冷却をする（例年は半年に一度ほど）。2026年11月は湿度が高く早めにたまった
+    effort: 未記入
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  docs: データシート
+  sources:
+    - 状態と提供：データシート
+    - 保守：障害情報 Trouble ID 2026-3
+
+- id: rx-z45
+  name: Z45
+  kind: 受信機
+  part_of: nro45m
+  depends_on: [nro45m, if-system]
+  status: 運用中
+  offered: 提供
+  introduced: 2013年度に搭載（科研費による持ち込みの受信機）。2016年度に機能を一部制限して共同利用に提供
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  docs: データシート
+  sources:
+    - 状態と提供：データシート
+    - 導入：年次報告2013、年次報告2016
+
+- id: rx-forest
+  name: FOREST（4ビーム受信機）
+  kind: 受信機
+  part_of: nro45m
+  depends_on: [nro45m, if-system]
+  status: 運用中
+  offered: 提供
+  introduced: 2011年にファーストライト。2016年1月に機能を一部制限して共同利用に提供、2016年度から本格提供
+  maintenance:
+    by: 所内
+    condition: 2026年11月に、受信機の機器を制御する計算機のソフトウェアが止まり、再起動で復旧
+    effort: 未記入
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  docs: データシート
+  sources:
+    - 状態と提供：データシート
+    - 導入：経緯（45m 鏡のページ、年次報告2015、年次報告2016）
+    - 保守：障害情報 Trouble ID 2026-2
+
+- id: rx-hinotori-tz
+  name: HINOTORI-TZ
+  kind: 受信機
+  part_of: nro45m
+  depends_on: [nro45m, if-system]
+  status: 運用中
+  offered: リスクシェアで提供
+  introduced: TZ は2009年度に搭載。2019年に大学のグループ（HINOTORI）が改修・移設し、3周波の同時観測ができるようになる
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  docs: データシート
+  sources:
+    - 状態と提供：データシート
+    - 導入：年次報告2009、技術シンポ2019
+  note: 改修は大学のグループによる。保守を誰が担うかは未確認
+
+- id: rx-7bee
+  name: 7BEE（7ビーム3帯域受信機）
+  kind: 受信機
+  part_of: nro45m
+  depends_on: [nro45m, if-system]
+  status: 運用中
+  offered: リスクシェアで提供
+  introduced: 2022年8月に搭載
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  docs: データシート
+  sources:
+    - 状態と提供：データシート
+    - 導入：年次報告2022
+
+# 信号処理と分光計
+
+- id: if-system
+  name: IF 系（共通 IF 系を含む）
+  kind: 信号処理
+  part_of: nro45m
+  status: 運用中
+  maintenance:
+    by: 所内
+    condition: 2026年11月に、共通 IF 系の減衰器の1台が故障し、交換
+    effort: 未記入
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  sources:
+    - 構成：データシート（Distribution of IFs to Backends）
+    - 保守：障害情報 Trouble ID 2026-7
+
+- id: be-sam45
+  name: SAM45（分光計）
+  kind: 分光計
+  part_of: nro45m
+  depends_on: [if-system]
+  status: 一部運用
+  offered: 提供
+  introduced: 2009年度に導入（アルマの ACA 相関器と同じ型）。2010年1月に一部を共同利用に公開
+  maintenance:
+    by: 所内
+    condition: 2026年11月に、16アレイを処理する部分の一つのマザーボードが故障し、アレイの一部が使えなくなる。同じ故障は過去に3回以上あり、予備のマザーボードは尽きている。故障した部分をエミュレータで置き換え、アレイ数の4分の3で運用を続けている
+    effort: 未記入
+  renewal: 後継の YATSUGATAKE への置き換えを準備中。部品の予備が尽きており、同じ故障が続けば運用できる部分が減る（推測）
+  owner_role: 未定
+  maintainers: 未記入
+  repos: [YATSUGATAKE-NRO45-sam45compat]
+  docs: データシート
+  sources:
+    - 導入：年次報告2009、年次報告2010
+    - 保守と更新：障害情報 Trouble ID 2026-1
+  note: 最大帯域 2 GHz（4096チャンネル）の16アレイからなる（年次報告2010）
+
+- id: be-yatsugatake
+  name: YATSUGATAKE（分光計）
+  kind: 分光計
+  part_of: nro45m
+  depends_on: [if-system]
+  status: 試験中
+  introduced: 2026年11月12日に試験的な科学運用を開始
+  maintenance: {by: 所内, condition: 未記入, effort: 未記入}
+  renewal: SAM45 の後継
+  owner_role: 未定
+  maintainers: 未記入
+  repos: [YATSUGATAKE, study-rfsoc]
+  sources:
+    - 導入：障害情報 Trouble ID 2026-1
+    - 後継の位置づけ：目録（YATSUGATAKE）
+
+- id: sw-sam45compat
+  name: SAM45 互換のソフトウェア（YATSUGATAKE で SAM45 の故障したアレイを肩代わりする）
+  kind: ソフトウェア
+  part_of: be-sam45
+  depends_on: [be-sam45, be-yatsugatake]
+  status: 試験中
+  maintenance: {by: 所内, condition: 未記入, effort: 未記入}
+  renewal: SAM45 が廃止され、分光計が YATSUGATAKE に一本化された時点で archive する
+  owner_role: 未定
+  maintainers: 未記入
+  repos: [YATSUGATAKE-NRO45-sam45compat]
+  sources:
+    - 目録（YATSUGATAKE-NRO45-sam45compat）
+  note: 障害情報にある「エミュレータ化」との関係は未確認
+
+- id: be-continuum
+  name: 連続波のバックエンド（Continuum BE）
+  kind: 分光計
+  part_of: nro45m
+  depends_on: [if-system]
+  status: 運用中
+  offered: 所内のみ
+  introduced: 未記入
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  docs: データシート
+  sources:
+    - データシート（連続波の観測は、科学観測としては提供せず、ポインティングの観測だけに使う）
+
+# 制御と時刻
+
+- id: sw-cosmos
+  name: COSMOS（観測制御ソフトウェア）
+  kind: ソフトウェア
+  part_of: nro45m
+  status: 運用中
+  introduced: 第3世代（COSMOS-3）が2003年に報告されている
+  maintenance: {by: 所内, condition: 未記入, effort: 未記入}
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  sources:
+    - 名称と役割：障害情報 Trouble ID 2026-2、Trouble ID 2026-5
+    - 導入：年次報告2002（論文の一覧にある COSMOS-3 の報告）
+  note: 構成の詳細は入れない
+
+- id: time-standard
+  name: 標準時計（水素メーザーを基準とする）
+  kind: 時刻
+  part_of: nro45m
+  status: 運用中
+  offered: 提供
+  maintenance:
+    by: 所内、水沢 VLBI 観測所
+    condition: 2023年度に水素メーザー時計が故障して VLBI 観測の提供を止め、電源を修理して復旧。2026年11月に原因不明の時刻のずれがあり、様子を見ている
+    effort: 未記入
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  sources:
+    - 故障と修理：日本天文学会2025年秋季年会 https://www.asj.or.jp/nenkai/archive/2025b/pdf/V127b.pdf
+    - 時刻のずれ：障害情報 Trouble ID 2026-4
+  note: 単一鏡の観測には影響が小さく、VLBI 観測に影響する。offered は VLBI 観測の提供を指す
