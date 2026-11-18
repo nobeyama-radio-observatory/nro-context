@@ -24,6 +24,7 @@
 | 外部評価2023 | 国立天文台 外部評価（2023年度）野辺山宇宙電波観測所の報告書 https://www.nao.ac.jp/contents/about/reports/external-review/external-review-2023-nro.pdf 。一覧は https://www.nao.ac.jp/about/reports/external-reveiw/ （URL の綴りは原文のまま） |
 | 聞き取り（受信機） | 受信機の運用リポジトリの聞き取りの記録（2026-11-18、回答者は所長）https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/interviews/2026-11-18-2.md |
 | 40周年記念誌 | 野辺山宇宙電波観測所40周年記念実行委員会 編『野辺山宇宙電波観測所40周年記念誌』国立天文台野辺山宇宙電波観測所、2022年2月、183ページ。国立国会図書館 請求記号 MB12-M7 https://ndlsearch.ndl.go.jp/books/R100000002-I032065105 。オンラインでは公開されていない。p.N は記念誌のページ |
+| 聞き取り（IF・連続波・時計） | IF 系、連続波、標準時計の運用リポジトリの聞き取りの記録（2026-11-18、回答者は所長）https://github.com/nobeyama-radio-observatory/nro-45m-if/blob/main/interviews/2026-11-18.md |
 | 天文学会YYYY | 日本天文学会 年会の講演予稿（https://www.asj.or.jp/nenkai/archive/ 以下、行ごとに記す） |
 
 ## 年表
@@ -98,8 +99,10 @@
 | 2022年9月1日 | 45m | 有料望遠鏡時間（第41期）を開始 | 年次報告2022、有料望遠鏡時間の案内 https://www.nro.nao.ac.jp/projects/45m/charge-for-the-nobeyama-45-m-telescope-time/ |
 | 2023年度 | 45m | 水素メーザー時計の故障で、VLBI 観測の提供を停止。修理して 2025年のシーズンに再開の見通し | 天文学会2025秋 https://www.asj.or.jp/nenkai/archive/2025b/pdf/V127b.pdf |
 | 2024年 | 組織 | 外部評価（下記）が行われる | 外部評価2023 |
+| 2025年冬 | 45m | 水素メーザー時計の修理を終え、VLBI 観測の提供を再開 | 聞き取り（IF・連続波・時計）問6 |
 | 2026年4月 | 太陽 | NoRP の 35・80 GHz のアンテナの運用を終える。NoRP 全体は 2027年度末（2028年3月末）に運用を終える計画 | NoRP のお知らせ https://solar.nro.nao.ac.jp/norp/html/mm_decomissionJ.html |
 | 2026年度 | 45m | 観測予算の寄付を募る場を観測希望者に提供する「国立天文台野辺山45m鏡・観測アイデア実現基金」を始める | 天文学会2026秋 https://www.asj.or.jp/nenkai/archive/2026b/pdf/V110b.pdf |
+| 2026年7月 | 45m | 連続波のバックエンドが故障。明確な担当者がいなかったため、計算機グループが新しいシステムに更新 | 聞き取り（IF・連続波・時計）問3 |
 
 ## 外部評価の指摘
 
