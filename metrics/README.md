@@ -45,7 +45,8 @@
 | id | 名称 | 区切り | 期間 |
 |---|---|---|---|
 | [budget-operations](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/budget-operations.yaml) | 観測所の予算（規模） | 年度 | 2023年度 |
-| [charge-per-hour](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/charge-per-hour.yaml) | 有料の望遠鏡時間の単価 | 時点 | 2026-11-18 時点（国内の機関の研究代表者）〜2026-11-18 時点（国外の機関の研究代表者） |
+| [charge-per-hour-domestic](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/charge-per-hour-domestic.yaml) | 有料の望遠鏡時間の単価（国内の機関の研究代表者） | 時点 | 2026-11-18 |
+| [charge-per-hour-overseas](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/charge-per-hour-overseas.yaml) | 有料の望遠鏡時間の単価（国外の機関の研究代表者） | 時点 | 2026-11-18 |
 | [cost-electricity](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/cost-electricity.yaml) | 電気代 | 年度 | 2025年度 |
 | [cost-maintenance](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/cost-maintenance.yaml) | 装置の保守の費用 | 年度 | 2025年度 |
 | [cost-total](https://github.com/nobeyama-radio-observatory/nro-metrics/blob/main/series/cost-total.yaml) | 観測所の運営に要る費用 | 年度 | 2025年度 |

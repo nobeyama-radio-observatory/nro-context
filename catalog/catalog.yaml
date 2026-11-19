@@ -20,7 +20,7 @@
   update: 随時
   disclosure: 公開
   status: 稼働
-  note: 2026-11-18 に作成。担当は聞き取り（nro-45m-spectrometer の interviews/2026-11-18.md 問0、問9）による。製品と開発のリポジトリ（YATSUGATAKE、YATSUGATAKE-NRO45-sam45compat、study-rfsoc）は、ここの台帳から参照する。ほかの装置群の運用リポジトリの候補は判断記録 0006 にあり、作るまではハブの assets/ に台帳を仮置きする。
+  note: 2026-11-18 に作成。担当は聞き取り（nro-45m-spectrometer の interviews/2026-11-18.md 問0、問9）による。製品と開発のリポジトリ（YATSUGATAKE、YATSUGATAKE-NRO45-sam45compat、study-rfsoc）は、ここの台帳から参照する。2026-11-18 にほかの装置群の運用リポジトリも作り、ハブの assets/ の仮置きの台帳は空になった（判断記録 0006）。
 
 - name: nro-45m-receivers
   url: https://github.com/nobeyama-radio-observatory/nro-45m-receivers
@@ -108,7 +108,7 @@
   update: 随時
   disclosure: 公開
   status: 稼働
-  note: 2026-11-18 に作成。担当は聞き取り（nro-45m-if の interviews/2026-11-18.md 問1・問3・問5）による。水素メーザーは水沢 VLBI 観測所の管理で、保守を装置システムグループが補助する。
+  note: 2026-11-18 に作成。担当は聞き取り（nro-45m-if の interviews/2026-11-18.md 問1・問3・問5）による。この目録の owner_role は、このリポジトリを担当する役割。台帳の time-standard の owner_role（水沢 VLBI 観測所）は、装置そのものを管理する組織で、対象が違う。水素メーザーは水沢 VLBI 観測所の管理で、保守を装置システムグループが補助する。
 
 - name: nro-metrics
   url: https://github.com/nobeyama-radio-observatory/nro-metrics
