@@ -24,6 +24,7 @@
 | [metrics/](metrics/README.md) | 数値の項目の定義と、系列の索引（値は nro-metrics） |
 | [history/](history/README.md) | 経緯：装置と運用形態の変更の年表 |
 | [external/](external/README.md) | 外部：他の施設の事例、将来の施設と技術の動向 |
+| [users/](users/README.md) | 45m 鏡の利用者と観測者が読む公開資料の所在と、問い合わせの窓口の索引 |
 | [decisions/](decisions/) | 判断記録（ADR） |
 | [skills/](skills/) | 観測所全体で使う Claude のスキルの正本 |
 
