@@ -26,9 +26,12 @@
 | sw-obs-ui | 観測の操作のユーザーインターフェース | [nro-45m-control](https://github.com/nobeyama-radio-observatory/nro-45m-control/blob/main/assets.yaml) |
 | sw-remote-obs | リモート観測のシステム | [nro-45m-control](https://github.com/nobeyama-radio-observatory/nro-45m-control/blob/main/assets.yaml) |
 | ctl-computers | 制御用の計算機と仮想化の基盤 | [nro-45m-control](https://github.com/nobeyama-radio-observatory/nro-45m-control/blob/main/assets.yaml) |
+| sw-cosmos-lc | 各装置の Local Controller（COSMOS の一部） | [nro-45m-control](https://github.com/nobeyama-radio-observatory/nro-45m-control/blob/main/assets.yaml) |
+| sw-cosmos-merge | マージ（COSMOS の一部） | [nro-45m-control](https://github.com/nobeyama-radio-observatory/nro-45m-control/blob/main/assets.yaml) |
 | be-sam45 | SAM45（分光計） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | be-yatsugatake | YATSUGATAKE（分光計） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | sw-sam45compat | SAM45 互換のソフトウェア | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
+| sw-sam45compat-lc | 暫定の Local Controller（SAM45 互換のソフトウェアの一部） | [nro-45m-spectrometer](https://github.com/nobeyama-radio-observatory/nro-45m-spectrometer/blob/main/assets.yaml) |
 | rx-h22 | H22 | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 | rx-h40 | H40 | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
 | rx-z45 | Z45 | [nro-45m-receivers](https://github.com/nobeyama-radio-observatory/nro-45m-receivers/blob/main/assets.yaml) |
@@ -43,6 +46,7 @@
 | db-nrodb-nobeyama | NRODB（野辺山） | [nro-data](https://github.com/nobeyama-radio-observatory/nro-data/blob/main/assets.yaml) |
 | db-nrodb-mitaka | NRODB（三鷹） | [nro-data](https://github.com/nobeyama-radio-observatory/nro-data/blob/main/assets.yaml) |
 | db-radio-archive | 電波アーカイブ | [nro-data](https://github.com/nobeyama-radio-observatory/nro-data/blob/main/assets.yaml) |
+| db-yksp-delivery | YKSP の観測生データの保管と配信（暫定） | [nro-data](https://github.com/nobeyama-radio-observatory/nro-data/blob/main/assets.yaml) |
 | tool-obs-script | 観測指示書の作成ソフト | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
 | tool-newstar | NEWSTAR | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
 | tool-nostar | NOSTAR | [nro-user-tools](https://github.com/nobeyama-radio-observatory/nro-user-tools/blob/main/assets.yaml) |
