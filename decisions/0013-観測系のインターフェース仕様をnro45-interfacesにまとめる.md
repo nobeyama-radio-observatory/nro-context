@@ -38,7 +38,7 @@
 
 ### 置き場所と層
 
-- **リポジトリ：** `nobeyama-radio-observatory/nro45-interfaces` を、製品の層のリポジトリとして作る。作るのは、この記録を採用した後に人が行う。
+- **リポジトリ：** `nobeyama-radio-observatory/nro45-interfaces` を、製品の層のリポジトリとして作る。2026-11-19 に、所長の依頼で AI が作った（骨組み、利用許諾、ラベル、主ブランチの保護。ほかの運用リポジトリと同じ設定）。中身はプルリクエストで足す。
 - **目録：** 0006 のとおり、ハブの目録には載せない。各運用リポジトリの台帳の `repos` から参照する。参照するのは、nro-45m-control の `sw-cosmos`、nro-user-tools の `tool-obs-script`、nro-45m-spectrometer の `be-sam45` と `be-yatsugatake`、nro-data の保管の資産など、境界の両側の資産である。
 - **文脈は運用リポジトリに置く。**
   - 仕様の正本が `nro45-interfaces` にあるのは、契約（形式、欄、型、単位、範囲、エラーの扱い）である。
