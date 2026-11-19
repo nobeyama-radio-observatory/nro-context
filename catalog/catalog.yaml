@@ -59,7 +59,7 @@
   url: https://github.com/nobeyama-radio-observatory/nro-data
   kind: ops
   categories: [資産]
-  description: 観測所のデータの保管（NRODB（野辺山・三鷹）、電波アーカイブ）の運用リポジトリ。観測データそのものは置かない。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
+  description: 観測所のデータの保管（NRODB（野辺山・三鷹）、電波アーカイブ、暫定の YKSP の保管と配信）の運用リポジトリ。観測データそのものは置かない。台帳ファイル、運用と保守の文書、聞き取りの記録を置く。
   owner_role: 計算機グループ
   update: 随時
   disclosure: 公開
